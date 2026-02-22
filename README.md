@@ -66,6 +66,8 @@ The project has successfully reached its Alpha milestone with core mechanics ful
 * **Vision:** This project is being developed with the goal of publishing on web platforms like **CrazyGames** and **Poki**.
 * **Purpose:** This repository serves to showcase the Alpha build for community testing and to document the implementation of modular game systems.
 
+** project deneme notu : BootStrap shanesini başlatarak oyunu unityde deneyenbilrtsnz
+
 ---
 
 ## 📂 Other Technical Works
