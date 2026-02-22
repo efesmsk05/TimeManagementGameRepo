@@ -36,6 +36,7 @@ Demonstrates the reliability of the **Object Pooling** system and the impact of 
 * **✨ Procedural Animations (Juice):** Integrated **PrimeTween** for high-performance animations. Features include a dynamic dishwashing station that reacts to fill capacity and optimized ease-curves for UI feedback.
 * **📦 Modularity & MVC:** Maintained strict separation between visual controllers (`TableVisualController`) and logical controllers (`TableController`) for better maintainability.
 * **📂 Addressables System:** Implemented Unity **Addressables** for asynchronous asset loading, leading to faster initial load times and efficient RAM management—crucial for WebGL performance.
+* **⚙️ ScriptableObject Architecture:** Utilized **ScriptableObjects** to create a data-driven system for daily schedules and customer varieties. This ensures the system is easily scalable, highly manageable, and decoupled from core logic.
 
 ---
 
