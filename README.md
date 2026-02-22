@@ -58,7 +58,7 @@ The project is currently in the **Alpha** stage. I am focusing on refining the c
 
 ## 📂 Other Projects
 - 👻 **[3D Horror Game & Interactive Menu Design](LINK_BURAYA)**
-- 🎨 **[Custom Shaders & Technical Art Portfolio](LINK_BURAYA)**
+
 
 ## 📬 Contact
 [Your Name] - [LinkedIn](LINK_BURAYA) - [Email]
