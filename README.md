@@ -23,8 +23,7 @@ Focuses on **Finite State Machine (FSM)** transitions and basic order-matching l
 ### 2. The Rush Hour (Stress Test & Juice)
 Demonstrates the **Object Pooling** system and **PrimeTween** animations (dynamic shaking, coin scattering) under high capacity.
 <div align="center">
-  <video src="
-https://github.com/user-attachments/assets/c2f3f7f0-8086-4415-8c7b-b8fb88199642
+  <video src="https://github.com/user-attachments/assets/c2f3f7f0-8086-4415-8c7b-b8fb88199642
 " autoplay loop muted playsinline width="85%"></video>
 </div>
 
