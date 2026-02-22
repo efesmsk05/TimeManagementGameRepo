@@ -1,64 +1,66 @@
-# 🍽️ 2D Restaurant Time-Management Game (Alpha)
+# 🍽️ 2D Restaurant Time-Management Game (Alpha Build)
 
 ![Unity](https://img.shields.io/badge/Unity-2022.3%2B-black?style=flat-square&logo=unity)
 ![C#](https://img.shields.io/badge/C%23-Programming-blue?style=flat-square&logo=c-sharp)
 ![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-green?style=flat-square)
+![Animation](https://img.shields.io/badge/Animation-PrimeTween-orange?style=flat-square)
 
-## 📌 About the Project
-This project is a 2D Time-Management simulation developed with Unity. My core focus was to design **interconnected game systems** (Customer AI, Order Management, Dishes) using clean architecture and high-performance patterns.
+## 📌 Proje Hakkında (About the Project)
+Bu proje, Unity motoruyla geliştirilmiş 2D bir Zaman Yönetimi (Time-Management) simülasyonudur. Projenin ana odağı; birbirine bağlı oyun sistemlerinin (**Müşteri AI, Sipariş Yönetimi, Bulaşık Döngüsü**) temiz bir mimari, modüler yapı ve yüksek performanslı tasarım desenleri ile nasıl kurgulanabileceğini göstermektir.
 
 ---
 
-## 🎮 Gameplay Showcase
+## 🎮 Oynanış Gösterimi (Gameplay Showcase)
 
-I've showcased the game in two different phases to demonstrate system stability and "Game Feel" under stress:
+Sistemin hem temel işleyişini hem de yoğun yük altındaki performansını sergilemek adına iki farklı oynanış kesiti aşağıda sunulmuştur:
 
-### 1. The Core Loop (Basic Gameplay)
-Focuses on **Finite State Machine (FSM)** transitions and basic order-matching logic.
+### 1. Temel Döngü (The Core Loop)
+Bu bölümde **Finite State Machine (FSM)** geçişleri, müşteri etkileşimleri ve temel sipariş eşleştirme mantığı sergilenmektedir.
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/e3a1a3c1-63a1-46ae-b73b-8e906c365049
-" autoplay loop muted playsinline width="85%"></video>
+  <video src="https://github.com/user-attachments/assets/e3a1a3c1-63a1-46ae-b73b-8e906c365049" autoplay loop muted playsinline width="85%"></video>
 </div>
 
-### 2. The Rush Hour (Stress Test & Juice)
-Demonstrates the **Object Pooling** system and **PrimeTween** animations (dynamic shaking, coin scattering) under high capacity.
+### 2. Yoğun Saat & Performans (The Rush Hour)
+Restoranın tam kapasite çalıştığı bu anlarda; **Object Pooling** sisteminin kararlılığı ve **PrimeTween** ile yazılmış prosedürel animasyonların (dinamik titremeler, para saçılma efektleri) yarattığı "Game Feel" test edilmektedir.
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/847e0c37-e848-47af-a49e-bc2156e29d98
-
-"></video>
+  <video src="https://github.com/user-attachments/assets/847e0c37-e848-47af-a49e-bc2156e29d98" autoplay loop muted playsinline width="85%"></video>
 </div>
 
 ---
 
-## 🚀 Technical Highlights
-* **🧠 Custom FSM:** Modular AI logic for customer behaviors.
-* **📡 Event-Driven Communication:** Decoupled systems using an **EventBus** pattern to maintain scalability.
-* **♻️ Optimized Pooling:** Zero-allocation approach for high-frequency objects (Coins, Plates).
-* **✨ Juice & Feedback:** Used **PrimeTween** for procedural animations, including a dynamic dishwashing station that shakes based on fill capacity.
+## 🚀 Teknik Öne Çıkanlar (Technical Highlights)
+
+* **🧠 Custom Finite State Machine (FSM):** Müşteri davranışları (Yürüme, Menü Bekleme, Yemek Yeme, Terk Etme) için modüler ve genişletilebilir bir yapay zeka mantığı kuruldu.
+* **📡 Event-Driven Communication:** Sistemler arasındaki bağımlılığı (coupling) azaltmak için **EventBus** yapısı kullanıldı. UI güncellemeleri ve müşteri aksiyonları bu hat üzerinden haberleşmektedir.
+* **♻️ Optimized Object Pooling:** Sık oluşturulan nesneler (Paralar, Tabaklar, Müşteriler) için bellek dostu, "Zero-Allocation" yaklaşımı uygulandı.
+* **✨ Prosedürel Animasyonlar (Juice):** Yüksek performanslı **PrimeTween** kütüphanesi entegre edildi. Bulaşık istasyonunun doluluk oranına göre dinamik olarak titremesi ve coinlerin fizik temelli saçılma efektleri gibi detaylarla "Game Feel" maksimize edildi.
+* **📦 Modüler Mimari:** Görsel kontrolcüler (`TableVisualController`) ve mantıksal kontrolcüler (`TableController`) birbirinden ayrılarak kodun okunabilirliği ve bakımı kolaylaştırıldı.
 
 ---
 
-## 🕹️ Play it on Itch.io
-You can try the latest alpha build directly in your browser:
-👉 **[Click Here to Play on Itch.io](BURAYA_ITCHIO_LINKINI_YAPISTIR)**
+## 🕹️ Hemen Dene (Play on Itch.io)
+Oyunun en güncel Alpha sürümünü doğrudan tarayıcınız üzerinden deneyimleyebilirsiniz:
+👉 **[Oyunun Itch.io Sayfası](BURAYA_ITCH_IO_LINKINI_YAPISTIR)**
 
 ---
 
-## 🛠️ Current Status & Roadmap
-The project is currently in the **Alpha** stage. I am focusing on refining the core loop before expanding the meta-progression.
+## 🛠️ Mevcut Durum ve Yol Haritası (Roadmap)
+Proje şu an **Alpha** aşamasındadır ve çekirdek mekanikler başarıyla tamamlanmıştır.
 
-- [x] Core Gameplay Loop (Ordering, Cooking, Serving)
-- [x] Dynamic Dishwashing & UI Juice
-- [x] Basic Economy & Object Pooling
-- [ ] **Coming Soon:** Kitchen Equipment Upgrades
-- [ ] **Coming Soon:** Enhanced Level Design & Map Polish
-- [ ] **Coming Soon:** Advanced Customer Types (VIPs, Impatient Critics)
+- [x] Temel Oynanış Döngüsü (Sipariş, Pişirme, Servis)
+- [x] Dinamik Bulaşık Sistemi ve UI Geri Bildirimleri
+- [x] Ekonomi Sistemi ve Object Pooling Entegrasyonu
+- [ ] **Yakında:** Mutfak Ekipmanları Geliştirme (Upgrade) Sistemi
+- [ ] **Yakında:** Level Design ve Harita Cilalama
+- [ ] **Yakında:** Özel Müşteri Tipleri (VIP, Sabırsız Eleştirmenler vb.)
 
 ---
 
-## 📂 Other Projects
-- 👻 **[3D Horror Game & Interactive Menu Design](LINK_BURAYA)**
+## 📂 Diğer Çalışmalar (Other Projects)
+* 👻 **[3D Korku Oyunu & İnteraktif Menü Tasarımı](BURAYA_3D_OYUN_REPOSUNUN_LINKINI_YAPISTIR)**
+* 🎨 **[Teknik Sanat & Shader Çalışmaları](BURAYA_SHADER_KLASORUNUN_VEYA_REPOSUNUN_LINKINI_YAPISTIR)**
 
-
-## 📬 Contact
-[Your Name] - [LinkedIn](LINK_BURAYA) - [Email]
+## 📬 İletişim (Contact)
+* **LinkedIn:** [LinkedIn Profil Linkin]
+* **E-posta:** [E-posta Adresin]
+* **Portfolyo:** [Varsa Diğer Portfolyo Linkin]
