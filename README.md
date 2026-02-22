@@ -16,7 +16,8 @@ I've showcased the game in two different phases to demonstrate system stability 
 ### 1. The Core Loop (Basic Gameplay)
 Focuses on **Finite State Machine (FSM)** transitions and basic order-matching logic.
 <div align="center">
-  <video src="20_SANIYELIK_SADE_VIDEO_LINKI" autoplay loop muted playsinline width="85%"></video>
+  <video src="https://github.com/user-attachments/assets/e3a1a3c1-63a1-46ae-b73b-8e906c365049
+" autoplay loop muted playsinline width="85%"></video>
 </div>
 
 ### 2. The Rush Hour (Stress Test & Juice)
