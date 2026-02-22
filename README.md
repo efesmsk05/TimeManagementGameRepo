@@ -62,5 +62,4 @@ Proje şu an **Alpha** aşamasındadır ve çekirdek mekanikler başarıyla tama
 
 ## 📬 İletişim (Contact)
 * **LinkedIn:** [https://www.linkedin.com/in/efe-%C5%9Fim%C5%9Fek-b41619356/]
-* **E-posta:** [E-posta Adresin]
-* **Portfolyo:** [Varsa Diğer Portfolyo Linkin]
+* **E-posta:** [efesimsek0535@gmail.com]
