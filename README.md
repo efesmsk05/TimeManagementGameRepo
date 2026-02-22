@@ -55,7 +55,15 @@ The project has successfully reached its Alpha milestone with core mechanics ful
 - [ ] **Upcoming:** Kitchen Equipment Upgrade System
 - [ ] **Upcoming:** Advanced Level Design & Map Polish
 - [ ] **Upcoming:** Dynamic Customer Types (VIPs, Impatient Critics)
-- [ ] **Upcoming:** Custom Vector Art Overhaul
+- [ ] **Upcoming:** Custom Vector Art Overhaul & Aesthetic Polish
+
+---
+
+## 📝 Developer Notes
+* **Project Status:** The game has recently transitioned out of the MVP stage. While the core loop is fully functional and stable, minor bugs may exist as the project scales.
+* **Assets:** Current visual assets are placeholders (free assets). A comprehensive art pass, including custom vector graphics and stylized shaders, is currently in progress.
+* **Vision:** This project is being developed with the goal of publishing on web platforms like **CrazyGames** and **Poki**.
+* **Purpose:** This repository serves to showcase the Alpha build for community testing and to document the implementation of modular game systems.
 
 ---
 
