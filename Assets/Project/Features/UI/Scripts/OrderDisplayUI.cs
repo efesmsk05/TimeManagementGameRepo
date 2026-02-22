@@ -26,11 +26,13 @@ public class OrderDisplayUI : MonoBehaviour
 
     void Awake()
     {
+        // 2. Editörde ayarladığın mükemmel boyutu (örn: 0.006) oyun başlarken kaydet
         initialScale = transform.localScale;
 
         activeCells = new bool[gridParent.transform.childCount];
 
-       // if (initialScale.x <= Mathf.Epsilon) initialScale = new Vector3(0.006f, 0.006f, 0.006f);
+        // Güvenlik: Eğer prefab yanlışlıkla Scale 0 olarak kaydedildiyse varsayılan bir değer ver
+        if (initialScale.x <= Mathf.Epsilon) initialScale = new Vector3(0.006f, 0.006f, 0.006f);
 
         cachedCells.Clear();
 
@@ -72,9 +74,11 @@ public class OrderDisplayUI : MonoBehaviour
 
         gameObject.SetActive(true);
         
+        // 3. Yoruma aldığın satırı geri açtım. Balon sıfırdan "POP" diye patlayarak çıksın
         transform.localScale = Vector3.zero; 
 
-        currentTween = Tween.Scale(transform, endValue: initialScale, duration: 0.5f, ease: Ease.OutBack);// pop effect
+        // 4. Sabit 0.01f yerine, hafızaya aldığımız initialScale (0.006) değerine kadar büyüsün!
+        currentTween = Tween.Scale(transform, endValue: initialScale, duration: 0.5f, ease: Ease.OutBack);
 
 
 
