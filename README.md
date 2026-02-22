@@ -40,7 +40,7 @@ Restoranın tam kapasite çalıştığı bu anlarda; **Object Pooling** sistemin
 
 ## 🕹️ Hemen Dene (Play on Itch.io)
 Oyunun en güncel Alpha sürümünü doğrudan tarayıcınız üzerinden deneyimleyebilirsiniz:
-👉 **[Oyunun Itch.io Sayfası](BURAYA_ITCH_IO_LINKINI_YAPISTIR)**
+👉 **[Oyunun Itch.io Sayfası](https://efesmsk05.itch.io/denemepixcoffe)**
 
 ---
 
