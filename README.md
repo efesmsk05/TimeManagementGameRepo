@@ -36,7 +36,7 @@ Demonstrates the reliability of the **Object Pooling** system and the impact of 
 * **✨ Procedural Animations (Juice):** Integrated **PrimeTween** for high-performance animations. Features include a dynamic dishwashing station that reacts to fill capacity and optimized ease-curves for UI feedback.
 * **📦 Modularity & MVC:** Maintained strict separation between visual controllers (`TableVisualController`) and logical controllers (`TableController`) for better maintainability.
 * **📂 Addressables System:** Implemented Unity **Addressables** for asynchronous asset loading, leading to faster initial load times and efficient RAM management—crucial for WebGL performance.
-* **⚙️ ScriptableObject Architecture:** Utilized **ScriptableObjects** to create a data-driven system for daily schedules and customer varieties. This ensures the system is easily scalable, highly manageable, and decoupled from core logic.
+* **⚙️ ScriptableObject Architecture:** Utilized **ScriptableObjects** to create a data-driven system for daily schedules and customer varieties. This ensures the system is easily scalable and decoupled from core logic.
 
 ---
 
@@ -61,12 +61,11 @@ The project has successfully reached its Alpha milestone with core mechanics ful
 ---
 
 ## 📝 Developer Notes
+* **🛠️ Testing the Project:** If you are running the project within the Unity Editor, please ensure you start from the **Bootstrap** scene to initialize all managers and systems correctly.
 * **Project Status:** The game has recently transitioned out of the MVP stage. While the core loop is fully functional and stable, minor bugs may exist as the project scales.
 * **Assets:** Current visual assets are placeholders (free assets). A comprehensive art pass, including custom vector graphics and stylized shaders, is currently in progress.
 * **Vision:** This project is being developed with the goal of publishing on web platforms like **CrazyGames** and **Poki**.
 * **Purpose:** This repository serves to showcase the Alpha build for community testing and to document the implementation of modular game systems.
-
-** project deneme notu : BootStrap shanesini başlatarak oyunu unityde deneyenbilrtsnz
 
 ---
 
