@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Game Assets
+  m_EditorClassIdentifier: 
+  m_GroupName: Game Assets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5c2824a7a87302d43853b71dbe2bff21
+  m_SerializeEntries:
+  - m_GUID: 20b953742ad0fc94281c4ed3ad7390a1
+    m_Address: Assets/Project/Features/AssetAdressable/Prefabs/CustomerGroup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Customer
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4283227b6780547f987ce4b9180d734c
+    m_Address: Prefabs/coin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Coin
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4644ab1f80f7394448d5369578d0a6f5
+    m_Address: Prefabs/CustomerGroup2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Customer
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 606bdf7fb181e7c47827e7d159749f3b
+    m_Address: MainMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c9cfa26abfee488c85f1582747f6a02
+    m_Address: Day1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5cf1a252b085064cb1c2e1b74b81989
+    m_Address: Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Customer
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cadb609c34e2cf54abb8c62a81437c7c
+    m_Address: Assets/Project/Features/AssetAdressable/Prefabs/CustomerGroup3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Customer
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd26b0cf15d4a974db7a5599a3056816
+    m_Address: Assets/Project/Features/AssetAdressable/Prefabs/CustomerGroup4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Customer
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: df0e7314a95b95f4190ef2c459b255d4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7d954fe24f3632842ba4c7469707cd74, type: 2}
+    - {fileID: 11400000, guid: f2951a5eac2f8204e8e705c46de3475b, type: 2}
